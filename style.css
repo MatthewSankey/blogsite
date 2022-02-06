@@ -10,8 +10,72 @@ div{
 }
   --*/
 
+/*-- Media Queires --*/
+
+@media only screen and (max-width: 600px) {
+    .navbar,
+    .featured,
+    .blog-list {
+      flex-direction: column;
+    }
+
+    .navbar{
+        gap:10px;
+        padding: 10px;
+    }
+
+    div.featured{
+        height: initial;
+        gap: 0px;
+    }
+    div.featured-text,
+    div.blog{
+        width: initial;
+        padding: 20px;
+    }
+
+    div.socials,
+    div.contact-details,
+    div.link-div{
+        width: initial;
+    }
+
+    div.logo{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    div.hamburger{
+        display: flex;
+        cursor: pointer;
+    }
+
+    ul.links{
+        display: none;
+    }
+
+    .hamburger-links{
+        padding: 0;
+    }
+
+    span.hamburger-bars{
+        font-size: 30px;
+        
+    }
+  }
+
+
+/*------------------*/
   body{
       margin: 0;
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+  .bar{
+      color: white;
   }
 
 .landing-page{
@@ -29,12 +93,17 @@ div{
     margin-right: 10%;
 }
 
+
 .links{
     display: flex;
     justify-content: space-evenly;
     padding: 0;
     gap: 20px;
 
+}
+
+.mobile-links{
+    display: none;
 }
 
 .link-div{
