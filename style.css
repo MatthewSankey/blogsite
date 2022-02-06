@@ -133,7 +133,7 @@ div{
     justify-content: center;
     height: 400px;
     gap: 40px;
-    background-color: white;
+    background-color: rgb(246, 246, 246);
 }
 
 .featured-text{
@@ -240,7 +240,7 @@ div{
 .footer{
     display: flex;
     flex-direction: column-reverse;
-    background-color: white;
+    background-color: rgb(246, 246, 246);
     align-items: center;
 }
 
